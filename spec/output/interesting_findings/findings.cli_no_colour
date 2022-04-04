@@ -1,0 +1,30 @@
+Interesting Finding(s):
+
+[+] F1_to_s
+ | Found By: Test (Passive)
+ | Confidence: 10%
+
+[+] F2
+ | Interesting Entry: IE1
+ | Found By: Spec
+ | Confidence: 20%
+ | Confirmed By: Spec2, 10% confidence
+ | Reference: R1
+
+[+] F3
+ | Interesting Entries:
+ |  - IE1
+ |  - IE2
+ | Found By: Spec
+ | Confidence: 100%
+ | Confirmed By:
+ |  - Spec2, 100% confidence
+ |  - Spec3, 10% confidence
+ | References:
+ |  - R1
+ |  - R2
+
+[+] F4
+ | Found By: Spec
+ | Confirmed By: Spec2
+

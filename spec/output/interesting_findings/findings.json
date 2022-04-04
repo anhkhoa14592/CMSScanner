@@ -1,0 +1,83 @@
+{
+  "interesting_findings": [
+    {
+      "url": "F1",
+      "to_s": "F1_to_s",
+      "type": "interesting_finding",
+      "found_by": "Test (Passive)",
+      "confidence": 10,
+      "confirmed_by": {
+
+      },
+      "references": {
+
+      },
+      "interesting_entries": [
+
+      ]
+    },
+    {
+      "url": "F2",
+      "to_s": "F2",
+      "type": "interesting_finding",
+      "found_by": "Spec",
+      "confidence": 20,
+      "confirmed_by": {
+        "Spec2": {
+          "confidence": 10
+        }
+      },
+      "references": {
+        "url": [
+          "R1"
+        ]
+      },
+      "interesting_entries": [
+        "IE1"
+      ]
+    },
+    {
+      "url": "F3",
+      "to_s": "F3",
+      "type": "interesting_finding",
+      "found_by": "Spec",
+      "confidence": 100,
+      "confirmed_by": {
+        "Spec2": {
+          "confidence": 100
+        },
+        "Spec3": {
+          "confidence": 10
+        }
+      },
+      "references": {
+        "url": [
+          "R1",
+          "R2"
+        ]
+      },
+      "interesting_entries": [
+        "IE1",
+        "IE2"
+      ]
+    },
+    {
+      "url": "F4",
+      "to_s": "F4",
+      "type": "interesting_finding",
+      "found_by": "Spec",
+      "confidence": 0,
+      "confirmed_by": {
+        "Spec2": {
+          "confidence": 0
+        }
+      },
+      "references": {
+
+      },
+      "interesting_entries": [
+
+      ]
+    }
+  ]
+}
