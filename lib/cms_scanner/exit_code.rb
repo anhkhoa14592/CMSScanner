@@ -16,10 +16,10 @@ module CMSScanner
     EXCEPTION        = 3
 
     # Error, scan did not finish
-    ERROR            = 4
+    ERROR            = 0
 
     # The target has at least one vulnerability.
     # Currently, the interesting findings do not count as vulnerable things
-    VULNERABLE       = 5
+    VULNERABLE       = 0
   end
 end
